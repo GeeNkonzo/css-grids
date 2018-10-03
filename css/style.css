@@ -1,0 +1,231 @@
+/* Body styling */
+
+body{
+    margin: 50px auto;
+    background-color: rgb(2, 27, 68);
+}
+
+/* creating grid container */
+
+.container{
+      display: grid;
+      width: 400px;
+      height: 650px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      padding: 0 25%;
+      grid-gap: 3px;
+  }
+
+  /* styling divs in grid container */
+
+  .container div{
+    background-size: cover;
+  }
+  
+/* styling grid cells individually */
+
+  .shanton{
+      background-image: url("../img/shanton.jpg");
+      background-position: center;
+      background-position-y: 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .jessie{
+    background-image: url("../img/jessie.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.daniel{
+    background-image:url("../img/daniel.jpg");
+    background-position: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  } 
+
+.evan{
+    background-image: url("../img/evan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcobisa{
+    background-image: url("../img/gcobisa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+}
+
+.sheldon{
+    
+    background-image: url("../img/sheldon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+.jp{
+    background-image:url("../img/john-paul.jpg");
+    background-position: center;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.natheer{
+    background-image: url("../img/natheer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+}
+
+.josh{
+    background-image: url("../img/josh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marlon{
+    background-image: url("../img/marlon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.michael{
+    background-image: url("../img/michael.jpeg");
+    background-position: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.litha{
+    background-image: url("../img/litha.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3;
+}
+
+.warnita{
+    background-image: url(../img/warnita.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taufeeq{
+    background-image: url(../img/taufeeq.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+}
+
+.shakeel{
+    background-image: url(../img/shakeel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.urick{
+    background-image: url(../img/urick.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reagan{
+    background-image: url(../img/reagan.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tyrone{
+    background-image: url(../img/tyrone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 2;
+}
+
+.kaylem{
+    background-image: url(../img/kaylem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 3;
+}
+
+.ashton{
+    background-image: url(../img/ashton.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+}
+
+.taariq{
+    background-image: url(../img/taariq.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gedeon{
+    background-image: url(../img/gedeon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.miguel{
+    background-image:url(../img/miguel.jpg);
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.zainab{
+    background-image:url(../img/zainab.jpg);
+    background-position: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-position-y: 20%;
+}
+
+
+  
+
