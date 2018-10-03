@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grid Areas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="main.js"></script>
+    <style>
+            .container {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 1fr 10fr 1fr;
+                grid-template-rows: 150px 150px 150px;
+                grid-template-areas:
+                    "content1 content1 content1"
+                    "sidebar1 content2 sidebar2"
+                    "footer footer footer";
+            }
+     
+            .item1 {
+                grid-area: content1;
+                background-color:#bada55;
+            }
+     
+            .item2 {
+                grid-area: sidebar1;
+                background-color:#ff0;
+            }
+     
+            .item3 {
+                grid-area: content2;
+                background-color:#f5f;
+            }
+     
+             .item4 {
+                grid-area: sidebar2;
+                background-color:#f00;
+            }
+     
+            .item5 {
+                grid-area: footer;
+                background-color:goldenrod;
+            }
+
+            @media (max-width:786px) {
+                .container{
+                width:100%;
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 150px 150px 150px;
+                grid-template-areas:
+                    " content1 "
+                    " content2 "
+                    " footer ";
+                }
+                
+            }
+</style>
+
+<body>
+    <div class="container">
+        <section class="item1">Content content content</section>
+        <div class="items item3"> Still content </div>
+        <div class="items item2">I am a sidebar</div>
+        <div class="items item4">sidebar2</div>
+        <div class="items item5">And I am the footer</div>
+    </div>
+</body>
+</html>
